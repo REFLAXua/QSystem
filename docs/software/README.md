@@ -443,16 +443,16 @@ public class user {
 import com.example.demo.model.completed_survey;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface CompletedSurveyRepository extends JpaRepository<completed_survey, Integer> {
+public interface completed_survey_repo extends JpaRepository<completed_survey, Integer> {
 }
 ```
 
-### ExpertRepository
+### expert_repo
 ```java
 import com.example.demo.model.expert;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ExpertRepository extends JpaRepository<expert, Integer> {
+public interface expert_repo extends JpaRepository<expert, Integer> {
 }
 ```
 
@@ -461,7 +461,7 @@ public interface ExpertRepository extends JpaRepository<expert, Integer> {
 import com.example.demo.model.option;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface OptionRepository extends JpaRepository<option, Integer> {
+public interface option_repo extends JpaRepository<option, Integer> {
 }
 ```
 
@@ -470,7 +470,7 @@ public interface OptionRepository extends JpaRepository<option, Integer> {
 import com.example.demo.model.question;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface QuestionRepository extends JpaRepository<question, Integer> {
+public interface question_repo extends JpaRepository<question, Integer> {
 }
 ```
 
@@ -479,7 +479,7 @@ public interface QuestionRepository extends JpaRepository<question, Integer> {
 import com.example.demo.model.quiz;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface QuizRepository extends JpaRepository<quiz, Integer> {
+public interface quiz_repo extends JpaRepository<quiz, Integer> {
 }
 ```
 
@@ -488,7 +488,7 @@ public interface QuizRepository extends JpaRepository<quiz, Integer> {
 import com.example.demo.model.result;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface ResultRepository extends JpaRepository<result, Integer> {
+public interface result_repo extends JpaRepository<result, Integer> {
 }
 ```
 
@@ -497,7 +497,7 @@ public interface ResultRepository extends JpaRepository<result, Integer> {
 import com.example.demo.model.selected_option;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface selectedOptionRepository extends JpaRepository<selected_option, Integer> {
+public interface selected_option_repo extends JpaRepository<selected_option, Integer> {
 }
 ```
 
@@ -506,7 +506,7 @@ public interface selectedOptionRepository extends JpaRepository<selected_option,
 import com.example.demo.model.user;
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<user, Integer> {
+public interface user_repo extends JpaRepository<user, Integer> {
 }
 ```
 ## RESTfull сервіс для управління даними
